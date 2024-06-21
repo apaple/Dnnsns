@@ -14,7 +14,7 @@ sleep 3
 
 clear
 echo "==================CREATED BY DOT AJA=================="
-read -p "username socks: " yukai
+read -p "username socks: " ngaran
 read -p "password socks: " sentot
 
 clear
