@@ -1,21 +1,3 @@
-#!/bin/bash
-
-clear
-echo "==================CREATED BY DOT AJA=================="
-read -p "MASUKAN SANDI : " memek
-
-permissions_url="https://dotaja.x10.bz/akses/akses.txt"
-
-clear
-
-PERMISSIONS_FILE="/tmp/akses.txt"
-curl -s -o $PERMISSIONS_FILE $permissions_url
-
-if ! grep -q "$memek" $PERMISSIONS_FILE; then
-    echo "SANDI SALAH, TANYAKAN KEPADA PEMBUAT SCRIPT !!!"
-    exit 1
-fi
-clear
 
 echo "KAMU DI IZIN KAN..."
 
